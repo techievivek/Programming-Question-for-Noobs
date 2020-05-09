@@ -10,6 +10,7 @@ else
 {
 if(*p==x)
 {
+/*We can also start from 1st character and do p[i-1]=p[i], but in last after loop we will have to /add a[i-1]=a[i] to include '\0'*/
 int i=0;
 while(p[i]!='\0')
 {
