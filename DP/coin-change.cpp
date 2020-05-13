@@ -50,5 +50,10 @@ q[i][j]=-1;
 }
 }
 cout<<no_of_change(n,p,size,q)<<endl;
+for(int i=0;i<=n;i++)
+{
+delete []q[i];
+}
+delete []p;
 return 0;
 }

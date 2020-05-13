@@ -23,5 +23,6 @@ g_max=local_max;
 }
 }
 cout<<"Max sum subarray is: "<<g_max<<endl;
+delete []p;
 return 0;
 }

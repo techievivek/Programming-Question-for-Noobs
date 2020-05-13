@@ -32,5 +32,7 @@ if(output[i]>max)
 max=output[i];
 }
 cout<<max<<endl;
+delete []p;
+delete []output;
 return 0;
 }
